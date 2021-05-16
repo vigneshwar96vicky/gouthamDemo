@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="src//test//resources//Feature",
 glue = "org.swag.stepdefinition",
 plugin = {"html:target","json:target/reports.json"},
-tags = {"@Scenario4"})
+tags = {"@amazon"})
 
 
 public class TestRunner {
